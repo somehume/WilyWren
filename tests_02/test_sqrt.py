@@ -32,3 +32,6 @@ def test_sqrt_9():
 def test_sqrt_10():
     assert sqrt(100) == 10
 
+def test_sqrt_11():
+    assert sqrt(0) == 0
+

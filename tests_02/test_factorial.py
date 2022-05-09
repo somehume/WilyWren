@@ -21,3 +21,7 @@ def test_factorial_5():
 def test_factorial_6():
     assert factorial(5) == 120
 
+def test_factorial_7():
+    with pytest.raises(Exception):
+        factorial(-1)
+
