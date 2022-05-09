@@ -38,7 +38,7 @@ jobs:
           # This assumes pytest is installed via the install-package step above
           command: pytest
       - store_test_results:
-          path: test-results
+          path: ./test-results
 
 
 # Invoke jobs via workflows
