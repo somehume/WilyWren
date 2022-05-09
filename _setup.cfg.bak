@@ -1,3 +1,9 @@
+[tool:pytest]
+minversion = 6.0
+addopts = -ra -q
+testpaths =
+    tests_02
+    
 [mutmut]
 paths_to_mutate=calc/
 backup=False
