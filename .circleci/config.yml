@@ -36,8 +36,8 @@ jobs:
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
-          #command: pytest
-          command: mutmut junitxml --suspicious-policy=ignore --untested-policy=ignore
+          command: pytest
+          #command: mutmut junitxml --suspicious-policy=ignore --untested-policy=ignore
       - store_test_results:
           path: ./test-results
 
